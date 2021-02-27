@@ -44,12 +44,8 @@ function Projects() {
           <br />
           <br />
           <br />
-          {/* < br /> */}
         
      
-{/* <div className="project-svj">
-    <img src={sushi} alt="project-background-svj" className="upper-svj" ></img>
-</div> */}
    <IconContext.Provider value={ {size: '20px'}}>
       <div className="text-center project">
           

@@ -7,8 +7,8 @@
   --primary-blue: #0012C0;
   --primary-darkblue: rgb(65, 52, 122);
   --primary-black: black;
-  --primary-yellow: #FD8BA7;
-  --primary-darkpink: #7DCFB6;
+  --primary-pink: #FD8BA7;
+  --primary-green: #7DCFB6;
   --primary-orange: #fdc500;
 }
 
@@ -26,10 +26,10 @@ body{
 
 
 .dreams{
-  width: 150px;
-  height: 120px;
+  width: 125px;
+  height: 105px;
   /* padding-top: 10px; */
-  padding-left: 30px;
+  padding-left: 8px;
   
 }
 
@@ -45,14 +45,13 @@ nav ul li{
 
 .navbar-nav > li > a{
   margin-right: 4.90rem;
-  margin-right: 4.90rem;
   color: var(--primary-blue) !important;
   font-weight: bolder;
   /* color:var(--primary-red) !important ; */
 }
 
 .navbar-brand{
-  max-width: 17.25rem;
+  max-width: 13.25rem;
   padding: 0 !important;
   height: 6rem !important;
   /* border-top: 00.1875rem solid var(--primary-purple); */
@@ -391,15 +390,16 @@ nav ul li{
 
  .contact-icons {
   padding-top: 20px;
-  padding-left: 60px;
+  padding-left: 700px;
+  padding-bottom: 20px;
 }
 .contactIcon{
-  color: #000;
+  color: #fff;
   margin-right: 19px;
 }
 .contactIcon:hover {
   background-color:transparent;
- fill: #fff;
+ fill: var(--primary-purple);
  
  } 
  
@@ -496,17 +496,21 @@ background-size: cover;
     display: none;
   }
   .name{
-    width: 80px;
+    width: 40px;
   }
   .email{
-    width: 80px;
+    width: 40px;
   }
   .message{
-    width: 80px;
+    width: 40px;
   }
 }
 
-
+.footer{
+  border-top: 2px solid black;
+  background-color: var(--primary-black);
+  opacity: 0.9;
+}
 
 
 

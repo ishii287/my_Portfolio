@@ -7,9 +7,9 @@ import {Link } from "react-scroll"
 function Navbar() {
     return (
       <div id="home" >
-            <nav className="navbar navbar-expand-lg navbar-light fixed-top " style={{backgroundColor:"#dee2ff"}}>
+            <nav className="navbar navbar-expand-lg navbar-light fixed-top " style={{backgroundColor:"#dee2ff", borderBottom:"2px outset black"}}>
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img className="dreams" src={logo} alt="logo" style={{paddingBottom:'10px', paddingTop:'5px'}}/></a>
+    <a className="navbar-brand" href="#"><img className="dreams" src={logo} alt="logo"/></a>
     <button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" 
     aria-controls="navbarSupportedContent"
      aria-expanded="false" aria-label="Toggle navigation">

@@ -23,10 +23,10 @@ function About() {
             <br />
             <div className="me">
             <div className="about-me row" >
-            <div className="col-12 col-md-4 about-me-img">
+            <div className="col-12 col-md-5 about-me-img">
         <img src={me} alt="image"  style={{boxShadow:" 10px 15px black", borderRadius:"20px"}} />
         </div>
-        <div className="col-12 col-md-8 about-me-content">
+        <div className="col-12 col-md-7 about-me-content">
         <h1 className="text-center" style={{color:"rgb(65, 52, 122)",fontWeight:"bolder",letterSpacing:"1.8px"}}> GET TO KNOW ME!   </h1>
 
             <p style={{paddingTop:"15px",paddingLeft:"20px", fontWeight:"650",fontSize:"19px"}}> I am a 3rd year student pursuing Bachelor's of Technology in Computer 
